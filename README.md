@@ -10,7 +10,7 @@ cd helloworld
 protoc -I. --go_out=plugins=grpc:.  helloworld.proto
 ```
 and
-``````
+```
 cd helloworldv2
 protoc -I. --go_out=plugins=grpc:.  helloworldv2.proto
 ```
